@@ -1,0 +1,7 @@
+C:\Users\mathe\OneDrive\Desktop\Programação\C#\Projetos\verificador_de_string\bin\Debug\verificador_de_string.exe.config
+C:\Users\mathe\OneDrive\Desktop\Programação\C#\Projetos\verificador_de_string\bin\Debug\verificador_de_string.exe
+C:\Users\mathe\OneDrive\Desktop\Programação\C#\Projetos\verificador_de_string\bin\Debug\verificador_de_string.pdb
+C:\Users\mathe\OneDrive\Desktop\Programação\C#\Projetos\verificador_de_string\obj\Debug\verificador_de_string.csproj.AssemblyReference.cache
+C:\Users\mathe\OneDrive\Desktop\Programação\C#\Projetos\verificador_de_string\obj\Debug\verificador_de_string.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Desktop\Programação\C#\Projetos\verificador_de_string\obj\Debug\verificador_de_string.exe
+C:\Users\mathe\OneDrive\Desktop\Programação\C#\Projetos\verificador_de_string\obj\Debug\verificador_de_string.pdb
