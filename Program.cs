@@ -10,6 +10,9 @@ namespace verificador_de_string
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Versao 1");
+            Console.WriteLine();
+
             Console.Write("Escreva uma palavra: ");
             string palavra = Console.ReadLine();
 
@@ -27,7 +30,7 @@ namespace verificador_de_string
             }
 
             // Verificando a existência da letra 'A'
-            if (contagem > 0)
+            if (contagem >= 0)
             {
                 if (contagem == 1)
                 {
@@ -43,6 +46,41 @@ namespace verificador_de_string
                 Console.WriteLine("A letra 'A' não está presente na string.");
             }
 
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Versao 2");
+            Console.WriteLine();
+
+            // versao 2.0
+            Console.Write("Escreva uma palavra: ");
+            string palavra1 = Console.ReadLine();
+
+            Console.Write("Digite a letra que quer contar: ");
+            char l = Console.ReadKey().KeyChar;
+
+            // deixando a palavra em caixa alta para facilitar
+            string palavramax1 = palavra1.ToUpper();
+            char l_max = char.ToUpper(l);
+            Console.WriteLine();
+
+            int contagem1 = 0;
+
+            for (int i = 0; i < palavramax1.Length; i++)
+            {
+                if (palavramax1[i] == l_max)
+                {
+                    contagem1++;
+                }
+            }
+            Console.WriteLine();
+            if (contagem1 == 1)
+            {
+                Console.WriteLine("A paravra '" + palavra1 + "' contém " + contagem1 + " letra '" + l_max + "'");
+            }
+            else
+            {
+                Console.WriteLine("A paravra '" + palavra1 + "' contém " + contagem1 + " letras '" + l_max + "'");
+            }
 
             Console.ReadKey();
         }
